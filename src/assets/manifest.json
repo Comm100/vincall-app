@@ -1,0 +1,29 @@
+{
+  "manifestVersion": "2.0",
+  "agentConsole": {
+    "widgets": {
+      "navBar": {
+        "id": "vincall-nav-bar",
+        "label": "Vin Call",
+        "url": "https://www.vincall.net/oauth/login"
+      },
+      "topBar": {
+        "id": "vincall-phone",
+        "url": "./phone.html",
+        "icon": "./images/default.png",
+        "tooltip": "Available"
+      }
+    }
+  },
+  "controlPanel": {
+    "pages": [
+      {
+        "id": "vincall-report",
+        "path": "reporting/vincallreport",
+        "url": "https://www.vincall.net/#/reports",
+        "icon": "./images/vincall.svg",
+        "label": "Vincall Report"
+      }
+    ]
+  }
+}
