@@ -16,7 +16,6 @@ import {
 import { ConnectState } from "../../domains/bo/ConnectStateBo";
 import { PageContextProvider } from "./PageContext";
 import { apiDomain, oauthDomain } from "../../config";
-import { Login } from "./Login";
 
 export type ConnectStatus = "connecting" | "connected" | "unconnected";
 
